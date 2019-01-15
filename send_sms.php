@@ -8,8 +8,8 @@ try {
     $SMS = $_POST["message"];
 
     //setting api key and secret
-    $API_KEY = "2960f270";
-    $API_SECRET = "TkPoS5pk40YOBFV0";
+    $API_KEY = "key here";
+    $API_SECRET = "secret here";
     $client = new Nexmo\Client(new Nexmo\Client\Credentials\Basic($API_KEY, $API_SECRET));
 
     //sending sms
